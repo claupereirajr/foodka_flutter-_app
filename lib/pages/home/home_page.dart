@@ -79,11 +79,12 @@ class HomePage extends StatelessWidget {
                     SizedBox(
                       child: CarouselSlider(
                         options: CarouselOptions(
-                          aspectRatio: 0.86,
+                          aspectRatio: 0.72,
+                          height: 480.0,
                           viewportFraction: 0.72,
                           enlargeCenterPage: true,
                           enlargeStrategy: CenterPageEnlargeStrategy.height,
-                          enableInfiniteScroll: false,
+                          enableInfiniteScroll: true,
                         ),
                         items: Recipe.recipes.map((recipe) => RecipeCarousel(recipe: recipe)).toList()
                       ),

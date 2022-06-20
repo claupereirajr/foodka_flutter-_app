@@ -24,7 +24,7 @@ class RecipeCarousel extends StatelessWidget {
               recipe.imgURL,
               fit: BoxFit.cover,
               width: 260.0,
-              height: 380.0,
+              height: 360.0,
             ),
           ),
           const SizedBox(height: 20.0,),
